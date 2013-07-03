@@ -23,6 +23,18 @@ Iceland-geodata
 ###Towns
 
 
+##Tips
+
+Combining GeoJSON files to a single TopoJSON file: <br>
+```
+topojson
+-p
+-o iceland_with_towns.topo.json
+iceland.json
+towns.json
+```  
+will make a new file `iceland_with_towns.topo.json` with two objects, `iceland` and `towns`.
+
 
 [Let’s Make a Map](http://bost.ocks.org/mike/map/) - A useful article for getting started with maps in D3.js
 
