@@ -6,10 +6,10 @@ Iceland-geodata
 ![Iceland regions](http://i.imgur.com/vycNgYe.png)
 
 
-1 - 279,487 vertices (not simplified) geojson - 12,567 KB / topojson - 1,190 KB <br> 
-10 - 100,455 vertices (simplified with tolerance 10) geojson - 4,548 KB / topojson - 668 KB <br>
-100 - 12,441 vertices (simplified with tolerance 100) geojson - 564 KB / topojson - 102 KB <br>
-1000 - 1,150 vertices (simplified with tolerance 1000) geojson - 54 KB / topojson - 12KB <br>
+1 - 279,487 vertices (not simplified) GeoJSON - 12,567 KB / TopoJSON - 1,190 KB <br> 
+10 - 100,455 vertices (simplified with tolerance 10) GeoJSON - 4,548 KB / TopoJSON - 668 KB <br>
+100 - 12,441 vertices (simplified with tolerance 100) GeoJSON - 564 KB / TopoJSON - 102 KB <br>
+1000 - 1,150 vertices (simplified with tolerance 1000) GeoJSON - 54 KB / TopoJSON - 12KB <br>
 
 ##Country
 
@@ -27,11 +27,11 @@ Iceland-geodata
 
 Combining GeoJSON files to a single TopoJSON file: <br>
 ```
-topojson
--p
--o iceland_with_towns.topo.json
-iceland.json
-towns.json
+topojson \
+-p \
+-o iceland_with_towns.topo.json \
+iceland.json \
+towns.json \
 ```  
 will make a new file `iceland_with_towns.topo.json` with two objects, `iceland` and `towns`.
 
