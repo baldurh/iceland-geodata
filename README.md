@@ -13,7 +13,7 @@ Iceland-geodata
 
 ##Country
 
-1 - 26,6651 vertices <br> 
+1 - 266,651 vertices <br> 
 10 - 97,425 vertices <br> 
 100 - 11,685 vertices <br> 
 1000 - 962 vertices <br> 
