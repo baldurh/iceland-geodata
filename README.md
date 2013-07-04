@@ -1,6 +1,9 @@
 Iceland-geodata
 ===============
 
+A collection of geographical data for Iceland in GeoJSON and TopoJSON format.  
+A special thanks to **[Sævar Öfjörð Magnússon](https://github.com/saevarom)** for helping me getting started!  
+
 Regions
 -------
 
