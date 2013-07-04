@@ -47,5 +47,21 @@ All geographical data derived from free data from [National Land Survey of Icela
 [NLSI terms](http://www.lmi.is/en/stafraen-gogn/skilmalar-og-gjaldskra/)  
 
 **Abstract**  
+> **3. Copyrights**  
+> The Republic of Iceland is the owner of all copyrights acquired by the NLSI. The 
+NLSI defends the interests of the Republic of Iceland regarding the copyright and 
+right of use of all materials it has acquired, processed or published regarding survey, 
+maps or photos of Iceland. All other matters regarding copyright are covered by the 
+Copyright Act, No. 73/1972 with subsequent amendments.  
+> **4. User Rights**  
+> Everyone is free to disseminate data originating from the NLSI for their own use and to
+use when making their own material.  
 > **6. Issuance and Publishing Licences**  
-> Anyone who intends to distribute, display, publish or reprint material that is copyright under the Republic of Iceland from the NLSI shall apply for the issuance and publication to NLSI. The same applies to the use of derived materials based on material from NLSI. The application must include details of where it is planned to publish the material. As a confirmation of the application the NLSI grants the user a numbered publishing license.
+> Anyone who intends to distribute, display, publish or reprint material that is copyright 
+under the Republic of Iceland from the NLSI shall apply for the issuance and 
+publication to NLSI. The same applies to the use of derived materials based on 
+material from NLSI. The application must include details of where it is planned to 
+publish the material. As a confirmation of the application the NLSI grants the user a 
+numbered publishing license.  
+---
+© Landmælingar Íslands V201307003
