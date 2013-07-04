@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+.subunit {
+  fill: #ddc;
+}
+.subunit-boundary {
+  fill: none;
+  stroke: #777;
+  stroke-dasharray: 2,2;
+  stroke-linejoin: round;
+}
+.active {
+  fill: #cdd; 
+}
+</style>
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script>
+var width = 400,
+    height = 300;
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+    
+d3.json("iceland_regions.topo.json", function(error, iceland) {
+	var subunits = topojson.feature(iceland, iceland.objects.regions);
+	var projection = d3.geo.albers()
+    .center([-1.0, 65])
+    .rotate([18, 0])
+    .parallels([50, 60])
+    .scale(4500)
+    .translate([width / 2, height / 2]);
+    var path = d3.geo.path()
+    .projection(projection);
+  
+  svg.selectAll(".subunit")
+    .data(subunits.features)
+    .enter().append("path")
+	.attr("class", function(d) { return "subunit"; })
+	.attr("d", path)
+	.on("mouseover", function(d){
+		d3.select(this).attr("class", "active");
+	})
+	.on("mouseout", function(d){
+		d3.select(this).attr("class", "subunit");
+	});
+	
+    svg.append("path")
+    .datum(topojson.mesh(iceland, iceland.objects.regions, function(a, b) { return a !== b}))
+    .attr("d", path)
+    .attr("class", "subunit-boundary");
+});
+
+</script>

@@ -38,8 +38,11 @@ towns.json \
 ```  
 will make a new file `iceland_with_towns.topo.json` with two objects, `iceland` and `towns`.
 
-
 [Let’s Make a Map](http://bost.ocks.org/mike/map/) - A useful article for getting started with maps in D3.js
+
+**Adding boundaries to a map will most likely only work for the most simplified data.** This is because the junctions
+between polygons must be manually corrected after simplification to match perfectly. However, it is possible to
+draw outlines for all polygons (lines around whole polygons instead lines between two different polygons only).
 
 ---
 
@@ -63,5 +66,6 @@ publication to NLSI. The same applies to the use of derived materials based on
 material from NLSI. The application must include details of where it is planned to 
 publish the material. As a confirmation of the application the NLSI grants the user a 
 numbered publishing license.  
+
 ---
 © Landmælingar Íslands V201307003
