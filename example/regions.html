@@ -25,7 +25,7 @@ var svg = d3.select("body").append("svg")
     .attr("width", width)
     .attr("height", height);
     
-d3.json("iceland_regions.topo.json", function(error, iceland) {
+d3.json("iceland_regions.topo.geojson", function(error, iceland) {
 	var subunits = topojson.feature(iceland, iceland.objects.regions);
 	var projection = d3.geo.albers()
     .center([-1.0, 65])
@@ -46,6 +46,9 @@ d3.json("iceland_regions.topo.json", function(error, iceland) {
 	})
 	.on("mouseout", function(d){
 		d3.select(this).attr("class", "subunit");
+	})
+	.on("click", function(d){
+		console.log(d.properties.Name);
 	});
 	
     svg.append("path")

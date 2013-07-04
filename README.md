@@ -35,9 +35,9 @@ Combining GeoJSON files to a single TopoJSON file:
 ```
 topojson \
 -p \
--o iceland_with_towns.topo.json \
-iceland.json \
-towns.json \
+-o iceland_with_towns.topo.geojson \
+iceland.geojson \
+towns.geojson \
 ```  
 will make a new file `iceland_with_towns.topo.json` with two objects, `iceland` and `towns`.
 
