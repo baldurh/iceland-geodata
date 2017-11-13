@@ -9,23 +9,23 @@ Regions
 
 ![Iceland regions](http://i.imgur.com/vycNgYe.png)
 
-1 - 279,487 vertices (not simplified) GeoJSON - 12,567 KB / TopoJSON - 1,190 KB  
-10 - 100,455 vertices (simplified with tolerance 10) GeoJSON - 4,548 KB / TopoJSON - 668 KB  
-100 - 12,441 vertices (simplified with tolerance 100) GeoJSON - 564 KB / TopoJSON - 102 KB  
-1000 - 1,150 vertices (simplified with tolerance 1000) GeoJSON - 54 KB / TopoJSON - 12KB  
+1: 279,487 vertices (not simplified) GeoJSON - 12,567 KB / TopoJSON - 1,190 KB  
+10: 100,455 vertices (simplified with tolerance 10) GeoJSON - 4,548 KB / TopoJSON - 668 KB  
+100: 12,441 vertices (simplified with tolerance 100) GeoJSON - 564 KB / TopoJSON - 102 KB  
+1000: 1,150 vertices (simplified with tolerance 1000) GeoJSON - 54 KB / TopoJSON - 12KB  
 
 Country
 -------
 
-1 - 266,651 vertices  
-10 - 97,425 vertices  
-100 - 11,685 vertices  
-1000 - 962 vertices   
+1: 266,651 vertices  
+10: 97,425 vertices  
+100: 11,685 vertices  
+1000: 962 vertices   
 
 Points
 ------
 
-###Towns
+### Towns
 
 
 Tips
